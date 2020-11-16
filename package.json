@@ -1,0 +1,20 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV='development' && node app.js",
+    "build": "set NODE_ENV='production' && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.12.0",
+    "koa-router": "^9.0.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.3",
+    "pm2": "^4.4.0"
+  }
+}
